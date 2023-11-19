@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+        <span class="screen-header__icons-dot">.</span>
+      </div>
+    </header>
+
+    <!-- <a href="#" id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i> Friends' Name Display <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a> -->
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-id-card"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img
+                src="https://nomadcoders.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fface0.59cd830c.jpg&w=1920&q=75"
+              />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MDVfMjEx%2FMDAxNjUxNjgzOTAzOTc3.7MdEXIJImFbaFaKprNrk9X7xddUh_FE6JmsdZbmrQtQg.w6bmx8oQDK2bqqlKYIMpfHTm3A0B-LEcePXt3bJthssg.JPEG.hela513513%2F1651683902460.jpg&type=a340"
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#Bts Gang~</h5>
+            <h6 class="open-post__hashtags">
+              #englishonly #ipurpleyou #taeta...
+            </h6>
+            <div class="open-post__members">
+              <img
+                src="https://nomadcoders.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fface0.59cd830c.jpg&w=1920&q=75"
+              />
+              <span class="open-post__member-count">299 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MThfMjIx%2FMDAxNjk0OTkwMjU1NTc3.5LiG318BP5hMmQpUPiYIdXbXLokQP67m53YTG22Lt-Yg.UPLIH7I8BMDbZ5ON1l5KcjDPL2pgG-CsWErm7cbpt-Qg.PNG.dwu72g%2Fimage.png&type=a340"
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i><span>215</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html" class="nav__link">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html" class="nav__link"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html" class="nav__link">
+            <span class="nav__dot">.</span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b89ff22812.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
